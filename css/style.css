@@ -7,12 +7,22 @@
 /*--header--*/
 .header_top{
   background-color: black;
-  height: 30vh;
+  height: 10vh;
 }
 /*--carousel--*/
 .carousel-item img{
-  height: 50vh;
+  height: 100vh;
 }
-.carousel-item{
- 
+/*--section first with red car--*/
+.first{
+  height: 60vh;
+  position: relative;
+}
+.first img{
+  height: 210px;
+  width: 400px;
+  position: absolute;
+  top:-15vh;
+  right:5vw;
+  z-index: 111;
 }

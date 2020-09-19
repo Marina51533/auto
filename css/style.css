@@ -10,7 +10,9 @@
   height: 30vh;
 }
 /*--carousel--*/
-.carousel{
-  background-color: burlywood;
-  height: 150vh;
+.carousel-item img{
+  height: 50vh;
+}
+.carousel-item{
+ 
 }

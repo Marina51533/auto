@@ -35,9 +35,9 @@ function progressBar(e){
           animItemPoint = window.innerHeight - animItemHeight/animStart;//if the element is more then window
         }
         if((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)){
-          animItem.classList.add('.active');
+          animItem.classList.add('active');
         } else{
-          animItem.classList.remove('.active');
+          animItem.classList.remove('active');
         }
 
 
@@ -50,5 +50,7 @@ function progressBar(e){
         scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       return {top: rect.top + scrollTop, left: rect.left + scrollLeft}
     }
-    animOnScroll();
+    setTimeout(() => {
+      animOnScroll();
+    }, 500);
   }

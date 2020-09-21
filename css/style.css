@@ -39,9 +39,9 @@
   padding-top:20vh;
   transform: translate(0px,120%);
   opacity: 0;
-  transition: all 1s ease 0.8;
+  transition: all 2s ;
 }
-.first_wrap_active{
+.first_wrap.active{
   transform: translate(0px,0px);
   opacity: 1;
 }

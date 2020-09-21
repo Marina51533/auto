@@ -26,3 +26,15 @@
   right:5vw;
   z-index: 111;
 }
+.first_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 center;
+  border:2px solid rgb(158, 30, 30);
+  width: fit-content;
+}
+.squer{
+  height: 100px;
+  width: 100px;
+  border:2px solid grey;
+}

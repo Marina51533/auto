@@ -29,12 +29,23 @@
 .first_wrap{
   display: flex;
   flex-wrap: wrap;
-  margin:0 center;
-  border:2px solid rgb(158, 30, 30);
+  margin:0 auto;
   width: fit-content;
+  padding-top:20vh;
+ 
 }
 .squer{
   height: 100px;
   width: 100px;
-  border:2px solid grey;
+  border:2px solid rgb(219, 219, 219);
+  margin:5vh;
+  position: relative;
+  
+}
+.squer img{
+position: absolute;
+height: 60px;
+width: 100px;
+top:25px;
+left:0px;
 }

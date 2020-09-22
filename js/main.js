@@ -37,7 +37,10 @@ function progressBar(e){
         if((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)){
           animItem.classList.add('active');
         } else{
-          animItem.classList.remove('active');
+          if(!animItem.classList.contains('anim-no-hide')){ //class not to show the animation durin rescrolling
+            animItem.classList.remove('active');
+          }
+          
         }
 
 

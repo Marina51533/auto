@@ -38,12 +38,12 @@
   margin:0 auto;
   width: fit-content;
   padding-top:20vh;
-  transform: translate(0px,50%);
+  transform: scale();
   opacity: 0;
   transition: all 2s ;
 }
 .first_wrap.active{
-  transform: translate(0px,0px);
+  
   opacity: 1;
 }
 .squer{
@@ -64,6 +64,7 @@ left:0px;
 /*-second-*/
 .second{
   padding: 10vh 0 10vh 0;
+  transition: all 2s ease 0 ;
 }
 .second_wrap{
   border:2px solid grey;
@@ -74,7 +75,19 @@ left:0px;
   justify-content: space-between;
   flex-wrap: nowrap;
   margin: 0 auto;
-  
+  overflow: hidden;
+  margin-bottom: 10vh;
+  transform: translate(0px,50%);
+  opacity: 0;
+  transition: all 1s ;
+}
+
+.second_wrap.active{
+  transform: translate(0px,0px);
+  opacity: 1;
+}
+.second_wrap:hover{
+  box-shadow: rgb(231, 230, 230) 6px 7px 16px 5px;
 }
 .second_wrap img{
   height: 150px;
@@ -83,6 +96,6 @@ left:0px;
 }
 .second_content{
   padding: 15px;
-  padding: 10vh 0 10vh 0;
+  
   overflow: hidden;
 }

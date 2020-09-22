@@ -20,8 +20,9 @@
 }
 /*--section first with red car--*/
 .first{
-  height: 60vh;
+  height: fit-content;
   position: relative;
+  padding:10vh;
 }
 .first img{
   height: 210px;
@@ -37,7 +38,7 @@
   margin:0 auto;
   width: fit-content;
   padding-top:20vh;
-  transform: translate(0px,120%);
+  transform: translate(0px,50%);
   opacity: 0;
   transition: all 2s ;
 }
@@ -59,4 +60,29 @@ height: 60px;
 width: 100px;
 top:25px;
 left:0px;
+}
+/*-second-*/
+.second{
+  padding: 10vh 0 10vh 0;
+}
+.second_wrap{
+  border:2px solid grey;
+  border-radius: 10px;
+  height: 150px;
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  
+}
+.second_wrap img{
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+}
+.second_content{
+  padding: 15px;
+  padding: 10vh 0 10vh 0;
+  overflow: hidden;
 }

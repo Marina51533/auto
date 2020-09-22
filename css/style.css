@@ -79,7 +79,7 @@ left:0px;
   margin-bottom: 10vh;
   transform: translate(0px,50%);
   opacity: 0;
-  transition: all 1s ;
+  transition: all .6s ;
 }
 
 .second_wrap.active{
@@ -98,4 +98,28 @@ left:0px;
   padding: 15px;
   
   overflow: hidden;
+}
+
+/*-three-*/
+.three{
+  height: 40vh;
+  background-color: black;
+}
+ .three_wrap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 10vh;
+}
+.three h2{
+color: white;
+}
+.input{
+  color:white;
+}
+/*--footer--*/
+footer{
+  height: 20vh;
+  padding:5vh;
+  text-align: center;
 }

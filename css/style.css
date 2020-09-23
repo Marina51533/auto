@@ -24,7 +24,7 @@
   position: relative;
   padding:10vh;
 }
-.first img{
+.red_auto{
   height: 210px;
   width: 400px;
   position: absolute;
@@ -70,7 +70,7 @@ left:0px;
   border:2px solid grey;
   border-radius: 10px;
   height: 150px;
-  width: 40vw;
+  width: 500px;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -119,7 +119,38 @@ color: white;
 }
 /*--footer--*/
 footer{
-  height: 20vh;
-  padding:5vh;
+  height: 10vh;
+  color:white;
+  font-weight: 600;
   text-align: center;
+  background-color: darkslategrey;
+
+}
+
+@media (max-width:640px){
+  .first{
+    padding:0;
+  }
+  .second_wrap{
+    width: fit-content;
+    padding:5vh;
+  }
+  .second_wrap img{
+    display: none;
+  }
+  .red_auto{
+    height: 150px;
+    width: 250px;
+  }
+  .carousel{
+    display: none;
+    
+  }
+  .background_media{
+    height: 100vh;
+    background-image: url('../img/bmw-z4-bmv-avtomobil-avto-oboi.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

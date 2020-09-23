@@ -2,6 +2,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 /*--header--*/
@@ -23,6 +24,7 @@
   height: fit-content;
   position: relative;
   padding:10vh;
+  
 }
 .red_auto{
   height: 210px;
@@ -146,11 +148,25 @@ footer{
     display: none;
     
   }
+  .squer{
+    margin-left: 13vw;
+  }
   .background_media{
     height: 100vh;
     background-image: url('../img/bmw-z4-bmv-avtomobil-avto-oboi.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  @media (max-width:340px){
+
+    .squer{
+      margin-left: 7vw;
+    }
+    .red_auto{
+      height: 110px;
+      width: 200px;
+    }
+
   }
 }
